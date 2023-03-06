@@ -14,7 +14,9 @@ sudo apt-get -y install gcc libssl-dev libauthen-ntlm-perl \
      libregexp-common-email-address-perl libregexp-common-perl \
      libregexp-common-time-perl libtest-deep-fuzzy-perl libtest-deep-perl \
      libtest-deep-json-perl libtest-deep-perl libtest-deep-type-perl \
-     libtest-deep-unorderedpairs-perl libtest-modern-perl libtest-most-perl
+     libtest-deep-unorderedpairs-perl libtest-modern-perl libtest-most-perl \
+     libparse-http-useragent-perl \
+     libproc-processtable-perl
 
 echo "Installing required Python modules using CPAN"
 sudo cpanm Crypt::OpenSSL::RSA Crypt::OpenSSL::Random --force
